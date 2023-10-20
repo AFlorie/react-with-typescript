@@ -39,18 +39,8 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
     });
   };
 
-  const text =
-    "ad Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt corrupti dicta libero facilis beatae accusamus saepe, iusto id quia accusantium quod magni eaque eius, quis et sed praesentium fugit? Ipsum!";
-
   return (
     <div className="AddToList">
-      <div>
-        <h1>To do list</h1>
-        <h2>sous titre ici</h2>
-      </div>
-      <div>
-        <p>{text}</p>
-      </div>
       <input
         type="text"
         value={input.name}
