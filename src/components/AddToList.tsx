@@ -38,7 +38,7 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
       note: "",
     });
   };
-  console.log("test");
+
   return (
     <div className="AddToList">
       <input
