@@ -46,6 +46,7 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
     <div className="AddToList">
       <div>
         <h1>To do list</h1>
+        <h2>sous titre ici</h2>
       </div>
       <div>
         <p>{text}</p>
